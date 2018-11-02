@@ -1,11 +1,23 @@
 """
 Base module for the encryption/decryption code
+With another change
 """
 
-def ethans_code():
-    """
-    this is ok stuff
-    """
-    pass
+def upstream_commit():
+	"""
+	test upstream commit
+	"""
+	print('does this work?')
 
-    return 'hello'
+	pass
+
+# This isn't going to work right
+
+# upstream_commit()
+# sys.exit()
+ 
+if __name__ == '__main__':
+    print('hi')
+
+# comment this out
+# upstream_commit()
